@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list_item.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/foto_image_view"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:contentDescription="foto_profil"
+        android:src="@drawable/male" />
+
+
+    <TextView
+        android:id="@+id/nama_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/foto_image_view"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/foto_image_view"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jurusan_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_text_view"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/foto_image_view"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>

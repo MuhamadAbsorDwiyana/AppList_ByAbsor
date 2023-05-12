@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:src="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:contentDescription="Icon" />
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/icon"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/btn_open_camera"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/btn_open_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/btn_logout"
+        android:text="Open Camera" />
+
+    <TextView
+        android:id="@+id/copyright_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2023 Muhamad Absor Dwiyana"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:layout_below="@+id/btn_exit" />
+
+
+</RelativeLayout>
